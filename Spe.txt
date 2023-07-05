@@ -13,3 +13,33 @@ By incorporating these integrations into our CI/CD pipelines, we can achieve sev
 In conclusion, the initiative to increase DevSecOps adaptation in our CI/CD pipelines, leveraging the integration of TeamCity, Octopus, HashiCorp Vault, SonarQube, and Checkmarx, is a strategic step towards achieving higher levels of security, code quality, and operational efficiency. I encourage all teams involved to actively participate and embrace these tools and practices to ensure that we continue to deliver secure and reliable software solutions to our clients.
 
 Thank you for your attention, and I welcome any questions or feedback you may have.
+
+
+
+Good morning/afternoon/evening, everyone,
+
+I would like to introduce a new initiative aimed at improving our operational efficiency and reducing mean time to resolution (MTTR) by creating a customized Service Owner Dashboard. This dashboard will provide a comprehensive view of all application-related CI (Continuous Integration) information on a single page, offering valuable insights and facilitating quick incident resolution.
+
+The Service Owner Dashboard will consolidate various crucial details pertaining to our applications, enabling service owners to access important information at a glance. Some of the key components of this dashboard include:
+
+1. Application Uptime: The dashboard will display the uptime status of each application, allowing service owners to monitor the availability of their respective services. This information will help identify any potential downtime issues and ensure timely action is taken to address them.
+
+2. Upcoming Changes: Service owners will have visibility into the upcoming changes scheduled for their applications. This includes planned updates, deployments, and maintenance activities. By having this information readily available, service owners can proactively prepare for any necessary actions or communicate potential impacts to stakeholders.
+
+3. Recent Changes: The dashboard will provide a summary of the most recent changes made to each application. This includes details such as the nature of the change, the implementor's name, and the associated CI process. Service owners can quickly review recent modifications and stay informed about any potential implications.
+
+4. Change Details: In addition to the summary of recent changes, the dashboard will offer a more comprehensive view of specific change details. This includes a breakdown of the change, its scope, and the implementation plan. Having access to this information will help service owners understand the context of changes and facilitate effective collaboration with the CI teams.
+
+5. Child CI Server Details: The dashboard will provide insights into the child CI servers associated with each application. This includes server uptime, patching schedules, and the latest patch status. Service owners can quickly identify any potential server-related issues and ensure that necessary maintenance activities are performed promptly.
+
+6. Certificate Expiry Details: The dashboard will also display information regarding certificate expirations for each application. Service owners will have visibility into upcoming certificate expirations, allowing them to proactively renew or update certificates to avoid disruptions.
+
+Furthermore, the Service Owner Dashboard will also incorporate software inventory details for each application. This includes information about the software versions installed and utilized. By having this inventory readily available, service owners can quickly identify any outdated or unsupported software versions, minimizing security risks and ensuring compliance with industry standards.
+
+By implementing this customized Service Owner Dashboard, we anticipate several benefits. Firstly, it will significantly reduce the mean time to resolution (MTTR) for incidents, as service owners will have immediate access to critical information necessary for troubleshooting and problem-solving. This will lead to faster incident resolution and reduced impact on business operations.
+
+Secondly, the dashboard will enhance operational efficiency by providing a consolidated view of all relevant CI information. Service owners will no longer need to navigate through multiple systems or interfaces to gather the required details. This streamlined access to information will save valuable time and enable service owners to focus on their core responsibilities effectively.
+
+In conclusion, the new initiative to create a customized Service Owner Dashboard is a significant step towards improving operational efficiency, reducing MTTR, and enabling quick incident resolution. By consolidating essential application CI information in one place, service owners can stay informed and respond promptly to incidents and changes. We look forward to implementing this initiative and invite all service owners to actively participate and provide feedback to ensure its success.
+
+Thank you for your attention, and I am open to any questions or suggestions you may have.
