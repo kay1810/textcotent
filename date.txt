@@ -7,3 +7,43 @@ Incident 6	02/09/2022 08:05:11	05/09/2022 20:04:04
 Incident 7	20/09/2022 03:13:01	20/09/2022 19:21:07
 Incident 8	14/10/2022 00:10:15	15/10/2022 04:25:35
 Incident 9	08/11/2022 18:13:33	08/11/2022 18:13:33
+
+
+
+To calculate the average incident response time, we need to calculate the time difference between the creation and resolution times for each incident, and then find the average of these differences.
+
+Here are the time differences for each incident:
+
+Incident 1: 2 days, 1 hour, 55 minutes, and 50 seconds
+Incident 2: 1 day, 4 hours, and 59 minutes, and 51 seconds
+Incident 3: 9 hours and 15 minutes and 9 seconds
+Incident 4: 5 minutes and 24 seconds
+Incident 5: 1 day, 16 hours, 8 minutes, and 39 seconds
+Incident 6: 3 days, 11 hours, 58 minutes, and 53 seconds
+Incident 7: 16 hours and 8 minutes and 6 seconds
+Incident 8: 1 day, 4 hours, and 15 minutes, and 20 seconds
+Incident 9: 0 seconds (same creation and resolution time)
+
+Now, let's calculate the average incident response time:
+
+Total response time = (2 days + 1 day + 9 hours + 5 minutes + 1 day + 3 days + 16 hours + 1 day) + (1 hour + 4 hours + 15 minutes + 55 minutes + 8 minutes) + (55 seconds + 51 seconds + 9 seconds + 24 seconds + 39 seconds + 53 seconds + 6 seconds + 20 seconds)
+                 = 10 days + 4 hours + 57 minutes + 228 seconds
+
+Number of incidents = 9
+
+Average incident response time = Total response time / Number of incidents
+                           = (10 days + 4 hours + 57 minutes + 228 seconds) / 9
+
+Now, let's convert the total response time to a single unit (seconds):
+
+10 days = 10 * 24 hours = 240 hours = 240 * 60 minutes = 14400 minutes = 14400 * 60 seconds = 864000 seconds
+4 hours = 4 * 60 minutes = 240 minutes = 240 * 60 seconds = 14400 seconds
+57 minutes = 57 * 60 seconds = 3420 seconds
+
+Total response time (in seconds) = 864000 seconds + 14400 seconds + 3420 seconds + 228 seconds
+                                 = 882048 seconds
+
+Average incident response time = 882048 seconds / 9
+                               = 98005.33 seconds (rounded to 2 decimal places)
+
+Therefore, the average incident response time is approximately 98005.33 seconds.
